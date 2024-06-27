@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.0.2/tailwind.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="flex justify-center items-center h-screen">
+  <div class="game-container">
+    <h1 class="text-3xl mb-4">Tic Tac Toe</h1>
+    <p class="mb-2">Player: <span id="playerName"></span></p>
+    <div class="board">
+      <div id="col-0" class="cell"></div>
+      <div id="col-1" class="cell"></div>
+      <div id="col-2" class="cell"></div>
+      <div id="col-3" class="cell"></div>
+      <div id="col-4" class="cell"></div>
+      <div id="col-5" class="cell"></div>
+      <div id="col-6" class="cell"></div>
+      <div id="col-7" class="cell"></div>
+      <div id="col-8" class="cell"></div>
+    </div>
+    <button id="reset" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none">Reset</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
